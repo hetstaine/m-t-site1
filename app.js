@@ -7,6 +7,8 @@ async function loadLanguage(lang) {
     if (el) {
       if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
         el.placeholder = data[key];
+      } else if (el.tagName === "IMG") {
+        el.alt = data[key];
       } else {
         el.textContent = data[key];
       }
