@@ -1,28 +1,39 @@
 {
   "hero_title": "Discover Lviv",
   "hero_subtitle": "A city of history, culture, and coffee",
+  "hero_alt": "Panoramic view of Lviv city",
 
   "nav_home": "Home",
   "nav_about": "About",
+  "nav_services": "Services",
+  "nav_testimonials": "Testimonials",
   "nav_contact": "Contact",
 
   "about_title": "About the City",
   "about_text": "Lviv is one of the most beautiful cities in Eastern Europe.",
 
   "services_title": "Our Services",
-
   "service1_title": "City Tours",
   "service1_desc": "Explore the city with experienced guides.",
   "service1_btn": "Learn more",
+  "service1_alt": "Tour bus in Lviv",
 
   "service2_title": "Hotel Booking",
   "service2_desc": "Find the best hotels at great prices.",
   "service2_btn": "Book now",
+  "service2_alt": "Luxury hotel exterior",
 
-  "filter_title": "Filter Options",
-  "filter_label": "Choose category:",
-  "filter_option1": "Culture",
-  "filter_option2": "Food",
+  "testimonials_title": "Testimonials",
+  "testimonial1_text": "Amazing experience!",
+  "testimonial1_author": "Anna K.",
+  "testimonial1_alt": "Smiling woman",
+  "testimonial2_text": "Loved the city tours.",
+  "testimonial2_author": "Mark L.",
+  "testimonial2_alt": "Happy man",
+
+  "gallery_title": "Photo Gallery",
+  "gallery1_alt": "Historic city square",
+  "gallery2_alt": "Local coffee shop",
 
   "form_title": "Contact Us",
   "form_name_label": "Name",
@@ -32,6 +43,11 @@
   "form_message_label": "Message",
   "form_message_placeholder": "Type your message",
   "form_submit": "Send message",
+
+  "newsletter_title": "Subscribe to Our Newsletter",
+  "newsletter_text": "Get updates and offers directly to your inbox.",
+  "newsletter_placeholder": "Enter your email",
+  "newsletter_btn": "Subscribe",
 
   "cta_title": "Plan Your Trip",
   "cta_text": "Start your journey today.",
