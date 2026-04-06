@@ -1,28 +1,39 @@
 {
   "hero_title": "Відкрийте для себе Львів",
   "hero_subtitle": "Місто історії, культури та кави",
+  "hero_alt": "Панорамний вид на місто Львів",
 
   "nav_home": "Головна",
   "nav_about": "Про нас",
+  "nav_services": "Послуги",
+  "nav_testimonials": "Відгуки",
   "nav_contact": "Контакти",
 
   "about_title": "Про місто",
   "about_text": "Львів — одне з найкрасивіших міст Східної Європи.",
 
   "services_title": "Наші послуги",
-
   "service1_title": "Екскурсії",
   "service1_desc": "Досліджуйте місто з досвідченими гідами.",
   "service1_btn": "Детальніше",
+  "service1_alt": "Туристичний автобус у Львові",
 
   "service2_title": "Бронювання готелів",
   "service2_desc": "Знайдіть найкращі готелі за вигідними цінами.",
   "service2_btn": "Забронювати",
+  "service2_alt": "Екстер’єр розкішного готелю",
 
-  "filter_title": "Фільтр",
-  "filter_label": "Оберіть категорію:",
-  "filter_option1": "Культура",
-  "filter_option2": "Їжа",
+  "testimonials_title": "Відгуки",
+  "testimonial1_text": "Неймовірний досвід!",
+  "testimonial1_author": "Анна К.",
+  "testimonial1_alt": "Посміхаючася жінка",
+  "testimonial2_text": "Подорожі містом сподобались.",
+  "testimonial2_author": "Марк Л.",
+  "testimonial2_alt": "Щасливий чоловік",
+
+  "gallery_title": "Фотогалерея",
+  "gallery1_alt": "Історична площа міста",
+  "gallery2_alt": "Місцева кав’ярня",
 
   "form_title": "Зв’язатися з нами",
   "form_name_label": "Ім’я",
@@ -32,6 +43,11 @@
   "form_message_label": "Повідомлення",
   "form_message_placeholder": "Ваше повідомлення",
   "form_submit": "Надіслати",
+
+  "newsletter_title": "Підпишіться на нашу розсилку",
+  "newsletter_text": "Отримуйте оновлення та пропозиції на свою пошту.",
+  "newsletter_placeholder": "Введіть email",
+  "newsletter_btn": "Підписатися",
 
   "cta_title": "Плануйте подорож",
   "cta_text": "Розпочніть свою подорож сьогодні.",
