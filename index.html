@@ -2,62 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Localization Demo</title>
+  <title>Localization Demo Full</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1 id="hero_title"></h1>
-  <p id="hero_subtitle"></p>
-
-  <nav>
-    <a href="#" id="nav_home"></a>
-    <a href="#" id="nav_about"></a>
-    <a href="#" id="nav_contact"></a>
-  </nav>
-
-  <div>
-    <button onclick="loadLanguage('en')">EN</button>
-    <button onclick="loadLanguage('uk')">UA</button>
+<header class="hero">
+  <img id="hero_image" src="images/hero.jpg" alt="" id="hero_alt">
+  <div class="hero-text">
+    <h1 id="hero_title"></h1>
+    <p id="hero_subtitle"></p>
+    <div class="lang-switch">
+      <button onclick="loadLanguage('en')">EN</button>
+      <button onclick="loadLanguage('uk')">UA</button>
+    </div>
   </div>
 </header>
 
-<main>
+<nav>
+  <a href="#" id="nav_home"></a>
+  <a href="#" id="nav_about"></a>
+  <a href="#" id="nav_services"></a>
+  <a href="#" id="nav_testimonials"></a>
+  <a href="#" id="nav_contact"></a>
+</nav>
 
-<section>
+<main>
+<section id="about_section">
   <h2 id="about_title"></h2>
   <p id="about_text"></p>
 </section>
 
-<section>
+<section id="services_section">
   <h2 id="services_title"></h2>
-
-  <div class="card">
-    <h3 id="service1_title"></h3>
-    <p id="service1_desc"></p>
-    <button id="service1_btn"></button>
-  </div>
-
-  <div class="card">
-    <h3 id="service2_title"></h3>
-    <p id="service2_desc"></p>
-    <button id="service2_btn"></button>
+  <div class="card-container">
+    <div class="card">
+      <img src="images/service1.jpg" alt="" id="service1_alt">
+      <h3 id="service1_title"></h3>
+      <p id="service1_desc"></p>
+      <button id="service1_btn"></button>
+    </div>
+    <div class="card">
+      <img src="images/service2.jpg" alt="" id="service2_alt">
+      <h3 id="service2_title"></h3>
+      <p id="service2_desc"></p>
+      <button id="service2_btn"></button>
+    </div>
   </div>
 </section>
 
-<section>
-  <h2 id="filter_title"></h2>
-  <label id="filter_label"></label>
-  <select>
-    <option id="filter_option1"></option>
-    <option id="filter_option2"></option>
-  </select>
+<section id="testimonials_section">
+  <h2 id="testimonials_title"></h2>
+  <div class="testimonial-container">
+    <div class="testimonial">
+      <img src="images/testimonial1.jpg" alt="" id="testimonial1_alt">
+      <p id="testimonial1_text"></p>
+      <p class="author" id="testimonial1_author"></p>
+    </div>
+    <div class="testimonial">
+      <img src="images/testimonial2.jpg" alt="" id="testimonial2_alt">
+      <p id="testimonial2_text"></p>
+      <p class="author" id="testimonial2_author"></p>
+    </div>
+  </div>
 </section>
 
-<section>
+<section id="gallery_section">
+  <h2 id="gallery_title"></h2>
+  <div class="gallery">
+    <img src="images/gallery1.jpg" alt="" id="gallery1_alt">
+    <img src="images/gallery2.jpg" alt="" id="gallery2_alt">
+  </div>
+</section>
+
+<section id="contact_section">
   <h2 id="form_title"></h2>
-
   <form>
     <label id="form_name_label"></label><br>
     <input type="text" placeholder="" id="form_name_placeholder"><br>
@@ -72,13 +91,12 @@
   </form>
 </section>
 
-<section>
-  <h2 id="cta_title"></h2>
-  <p id="cta_text"></p>
-  <button id="cta_button"></button>
+<section id="newsletter_section">
+  <h2 id="newsletter_title"></h2>
+  <p id="newsletter_text"></p>
+  <input type="email" placeholder="" id="newsletter_placeholder">
+  <button id="newsletter_btn"></button>
 </section>
-
-</main>
 
 <footer>
   <p id="footer_text"></p>
@@ -87,5 +105,3 @@
 <script src="app.js"></script>
 </body>
 </html>
-
-<!-- update -->
