@@ -1,8 +1,41 @@
 {
   "hero_title": "Відкрийте для себе Львів",
   "hero_subtitle": "Місто історії, культури та кави",
+
+  "nav_home": "Головна",
+  "nav_about": "Про нас",
+  "nav_contact": "Контакти",
+
   "about_title": "Про місто",
-  "about_text": "Львів — одне з найкрасивіших міст Східної Європи, відоме своєю архітектурою та атмосферою.",
-  "cta_button": "Забронювати подорож",
+  "about_text": "Львів — одне з найкрасивіших міст Східної Європи.",
+
+  "services_title": "Наші послуги",
+
+  "service1_title": "Екскурсії",
+  "service1_desc": "Досліджуйте місто з досвідченими гідами.",
+  "service1_btn": "Детальніше",
+
+  "service2_title": "Бронювання готелів",
+  "service2_desc": "Знайдіть найкращі готелі за вигідними цінами.",
+  "service2_btn": "Забронювати",
+
+  "filter_title": "Фільтр",
+  "filter_label": "Оберіть категорію:",
+  "filter_option1": "Культура",
+  "filter_option2": "Їжа",
+
+  "form_title": "Зв’язатися з нами",
+  "form_name_label": "Ім’я",
+  "form_name_placeholder": "Введіть ім’я",
+  "form_email_label": "Email",
+  "form_email_placeholder": "Введіть email",
+  "form_message_label": "Повідомлення",
+  "form_message_placeholder": "Ваше повідомлення",
+  "form_submit": "Надіслати",
+
+  "cta_title": "Плануйте подорож",
+  "cta_text": "Розпочніть свою подорож сьогодні.",
+  "cta_button": "Забронювати",
+
   "footer_text": "Усі права захищено."
 }
