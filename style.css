@@ -72,6 +72,13 @@ body {
   position: relative;     
 }
 
+/* Hero image container scoped separately */
+.hero .image-tooltip-container {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
 .hero img {
   width: 100%;          /* stretch to container */
   height: 70vh;         /* adjust as needed */
@@ -122,6 +129,13 @@ body {
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
 
+/* Featured products tooltip containers stay inline-block to prevent stretching */
+.featured .image-tooltip-container {
+  display: inline-block;
+  width: auto;
+  position: relative;
+}
+
 .product-card img {
   width: 100%;
   height: 300px;        /* set desired height */
@@ -160,18 +174,7 @@ body {
 
 /* ===== TOOLTIP ===== */
 
-.image-tooltip-container {
-  position: relative;
-  display: block;       /* change from inline-block to block */
-  width: 100%;          /* ensure full width */
-}
-
-.image-tooltip-container img {
-  display: block;
-  width: 100%;
-  border-radius: 10px;
-}
-
+/* Tooltips are reused but layout differs by section */
 .tooltip-text {
   visibility: hidden;
   max-width: 200px;
@@ -192,4 +195,26 @@ body {
 .image-tooltip-container:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  .hero img {
+    height: 50vh;  /* smaller hero on mobile */
+  }
+
+  .hero-text {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+
+  .navbar nav ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .newsletter input[type="email"] {
+    width: 70%;
+  }
 }
