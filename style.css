@@ -352,12 +352,20 @@ body {
 }
 
 /* Social icons sizing */
+
+.contact-details .social-links {
+  display: flex;           /* horizontal layout */
+  flex-direction: row;     /* default, can be omitted */
+  gap: 16px;               /* spacing between icons */
+  align-items: center;     /* vertically center if mixed content */
+  justify-content: flex-start; /* or center if you want centered row */
+  margin-top: 8px;
+}
+
 .contact-details .social-links a img {
-  width: 32px;       /* width of the icon */
-  height: 32px;      /* height of the icon */
+  width: 32px;       /* uniform width */
+  height: 32px;      /* uniform height */
   object-fit: contain;
-  margin-right: 12px; /* spacing between icons */
-  vertical-align: middle;
   transition: transform 0.3s ease;
 }
 
