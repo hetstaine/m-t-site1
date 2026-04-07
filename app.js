@@ -77,8 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Easter Egg: Change all images + confetti ---
   document.addEventListener('keydown', (e) => {
-    // Ctrl + Shift + I → trigger
-    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'i') {
+    // Shift + I → trigger
+    if (e.shiftKey && !e.ctrlKey && !e.altKey && e.key.toLowerCase() === 'i') {
       const newImg = 'assets/images/fun/party.gif'; // your fun image
       document.querySelectorAll('img').forEach(img => {
         if (!img.dataset.originalSrc) img.dataset.originalSrc = img.src; // save original
