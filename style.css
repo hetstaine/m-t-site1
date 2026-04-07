@@ -335,6 +335,11 @@ body {
     flex-direction: column;
     gap: 30px;
   }
+  .contact-details .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }  
 }
 
 /* ===== LOOKBOOK IMAGES ===== */
@@ -345,3 +350,18 @@ body {
   border-radius: 10px;
   display: block;
 }
+
+/* Social icons sizing */
+.contact-details .social-links a img {
+  width: 32px;       /* width of the icon */
+  height: 32px;      /* height of the icon */
+  object-fit: contain;
+  margin-right: 12px; /* spacing between icons */
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.contact-details .social-links a img:hover {
+  transform: scale(1.2); /* subtle hover effect */
+}
+
