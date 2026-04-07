@@ -73,11 +73,10 @@ body {
 }
 
 .hero img {
-  width: 100vw;           /* stretch image to full viewport width */
-  max-width: 100vw;       /* make sure no max-width limits it */
-  height: 70vh;           /* adjust height as desired */
-  object-fit: cover;      
-  display: block;         /* remove bottom spacing from inline images */
+  width: 100%;          /* stretch to container */
+  height: 70vh;         /* adjust as needed */
+  object-fit: cover;
+  display: block;
 }
 
 .hero-text {
@@ -163,7 +162,8 @@ body {
 
 .image-tooltip-container {
   position: relative;
-  display: inline-block;
+  display: block;       /* change from inline-block to block */
+  width: 100%;          /* ensure full width */
 }
 
 .image-tooltip-container img {
