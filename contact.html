@@ -10,7 +10,9 @@
 
 <header class="navbar">
   <div class="container">
-    <a href="index.html" class="logo">Fashionista</a>
+    <a href="index.html" class="logo">
+      <img src="assets/images/logo.png" alt="Chic Happens Logo">
+    </a>
     <nav>
       <ul>
         <li><a href="index.html" data-i18n="nav.home">Home</a></li>
@@ -29,17 +31,31 @@
 
 <section class="contact container">
   <h2 data-i18n="contact.title">Get in Touch</h2>
-  <p data-i18n="contact.text">Have questions, suggestions, or want to collaborate? Don’t be a stranger — we love hearing from you!</p>
-  <form>
-    <input type="text" placeholder="Your name" required>
-    <input type="email" placeholder="Your email" required>
-    <textarea placeholder="Your message" required></textarea>
-    <button type="submit" data-i18n="contact.cta">Send Message</button>
-  </form>
+  <p data-i18n="contact.text" class="contact-text">Have questions, suggestions, or want to collaborate? Don’t be a stranger — we love hearing from you!</p>
 
-  <div class="socials">
-    <p data-i18n="contact.socials">Follow us on social media:</p>
-    <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">TikTok</a>
+  <div class="contact-grid">
+    <!-- Contact Form -->
+    <form class="contact-form">
+      <input type="text" placeholder="Your name" required data-i18n-placeholder="contact.name">
+      <input type="email" placeholder="Your email" required data-i18n-placeholder="contact.email">
+      <textarea placeholder="Your message" required data-i18n-placeholder="contact.message"></textarea>
+      <button type="submit" data-i18n="contact.cta">Send Message</button>
+    </form>
+
+    <!-- Contact Info & Socials -->
+    <div class="contact-info">
+      <h3 data-i18n="contact.follow">Follow Us</h3>
+      <p data-i18n="contact.socials">Follow us on social media:</p>
+      <div class="social-links">
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">TikTok</a>
+      </div>
+      <h3 data-i18n="contact.emailLabel">Email</h3>
+      <p>hello@chichappens.com</p>
+      <h3 data-i18n="contact.phoneLabel">Phone</h3>
+      <p>+1 (555) 123-4567</p>
+    </div>
   </div>
 </section>
 
