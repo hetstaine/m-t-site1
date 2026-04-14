@@ -1,5 +1,5 @@
 {
-  "title": "Chic Happens - Fashion Website",
+  "title": "Chic Happens",
 
   "nav.home": "Home",
   "nav.collections": "Collections",
@@ -12,7 +12,7 @@
   "hero.cta": "Explore Collection",
 
   "home.featured": "Featured Collections",
-  
+
   "product1.name": "Sunset Dress",
   "product1.desc": "Turn heads with this dazzling dress — perfect for the beach or a night out",
   "product1.price": "$120",
